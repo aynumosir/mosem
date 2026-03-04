@@ -1,1 +1,25 @@
-{}
+{
+  "/app/[locale]/layout": {
+    "title": "aynu.io",
+    "description": "The home of the aynu.io project"
+  },
+  "/app/[locale]/page": {
+    "title": "Bringing Ainu Back to Life…",
+    "description": "aynu.io builds and publishes open software to keep the Ainu language alive in the modern world. The project is led by <link>Ryo\n  Igarashi</link> with the help of a small group of dedicated contributors.",
+    "apps": "What We've Built",
+    "apps_desc": "Here are the projects we've released so far. For access to anything not yet public, feel free to reach out.",
+    "elsewhere": "Find Us Elsewhere",
+    "elsewhere_desc": "We're also active on the following sites.",
+    "app_entry_tunci": "An experimental Ainu machine translation app with dialect support and example sentences.",
+    "app_entry_kampisos": "A modern, searchable online corpus for the Ainu language with powerful filtering.",
+    "app_entry_minecraft_ainu": "Play Minecraft in Ainu — a full resource pack for the Ainu language.",
+    "app_entry_ainu_corpora": "A parallel Ainu–Japanese dataset of over 1.7 million words"
+  },
+  "/components/AppCard/AppCard": {
+    "visit": "Visit",
+    "private": "Private"
+  },
+  "/components/ContentInfo/ContentInfo": {
+    "title": "About"
+  }
+}
