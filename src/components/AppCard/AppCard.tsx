@@ -29,7 +29,12 @@ export const AppCard: FC<AppCardProps> = async (props) => {
   return (
     <Card>
       <Inset side="top" clip="padding-box">
-        <Image src={src} alt="" style={{ width: "100%", height: "auto" }} />
+        <Image
+          src={src}
+          alt=""
+          sizes="300px"
+          style={{ width: "100%", height: "auto" }}
+        />
       </Inset>
 
       <Box mt="3">
@@ -45,12 +50,12 @@ export const AppCard: FC<AppCardProps> = async (props) => {
           {description}
         </Text>
 
-        <Link href={href} target="_blank">
-          <Flex align="center" gap="1">
+        <Flex align="center" gap="1" asChild>
+          <Link href={href} target="_blank">
             {t("visit")}
             <ExternalLinkIcon aria-hidden />
-          </Flex>
-        </Link>
+          </Link>
+        </Flex>
       </Box>
     </Card>
   );

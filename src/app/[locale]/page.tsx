@@ -31,13 +31,23 @@ export default async function Home(props: PageProps<"/[locale]">) {
       <Section size="3">
         <Text
           as="p"
-          size={{ initial: "6", md: "8" }}
+          size={{ initial: "7", md: "8" }}
           weight={locale === "ja" ? "bold" : "regular"}
           style={{ wordBreak: "keep-all", overflowWrap: "anywhere" }}
         >
-          {t.rich("about", {
-            em: (chunks) => <Em>{chunks}</Em>,
+          {t.rich("title", {
             wbr: () => <wbr />,
+          })}
+        </Text>
+
+        <Text as="p" mt="3">
+          {t.rich("description", {
+            em: (chunks) => <Em>{chunks}</Em>,
+            link: (chunks) => (
+              <Link href="https://neet.love" target="_blank">
+                {chunks}
+              </Link>
+            ),
           })}
         </Text>
       </Section>
@@ -98,21 +108,21 @@ export default async function Home(props: PageProps<"/[locale]">) {
 
         <Flex gap="4">
           <Card>
-            <Link href="https://huggingface.co/aynumosir" target="_blank">
-              <Flex gap="1" align="center">
+            <Flex gap="1" align="center" asChild>
+              <Link href="https://huggingface.co/aynumosir" target="_blank">
                 Hugging Face
                 <ExternalLinkIcon aria-hidden />
-              </Flex>
-            </Link>
+              </Link>
+            </Flex>
           </Card>
 
           <Card>
-            <Link href="https://github.com/aynumosir" target="_blank">
-              <Flex gap="1" align="center">
+            <Flex gap="1" align="center" asChild>
+              <Link href="https://github.com/aynumosir" target="_blank">
                 GitHub
                 <ExternalLinkIcon aria-hidden />
-              </Flex>
-            </Link>
+              </Link>
+            </Flex>
           </Card>
         </Flex>
       </Section>
