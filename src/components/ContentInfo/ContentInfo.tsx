@@ -1,5 +1,14 @@
-import { Section, Text, VisuallyHidden } from "@radix-ui/themes";
+import {
+  Flex,
+  Link as RadixLink,
+  Section,
+  Separator,
+  Text,
+  Reset,
+  VisuallyHidden,
+} from "@radix-ui/themes";
 import { getTranslations } from "next-intl/server";
+import Link from "next/link";
 import { FC } from "react";
 
 export const ContentInfo: FC = async () => {
@@ -12,6 +21,55 @@ export const ContentInfo: FC = async () => {
         <VisuallyHidden>
           <h2 id={titleId}>{t("title")}</h2>
         </VisuallyHidden>
+
+        <Reset>
+          <Flex asChild justify="center" align="center" gap="3">
+            <ul>
+              <li>
+                <RadixLink size="2" asChild>
+                  <Link
+                    rel="alternate"
+                    href="/ain-Latn"
+                    hrefLang="ain-Latn"
+                    prefetch={false}
+                  >
+                    Aynu itak
+                  </Link>
+                </RadixLink>
+              </li>
+
+              <Separator orientation="vertical" decorative />
+
+              <li>
+                <RadixLink size="2" asChild>
+                  <Link
+                    rel="alternate"
+                    href="/en"
+                    hrefLang="en"
+                    prefetch={false}
+                  >
+                    English
+                  </Link>
+                </RadixLink>
+              </li>
+
+              <Separator orientation="vertical" decorative />
+
+              <li>
+                <RadixLink size="2" asChild>
+                  <Link
+                    rel="alternate"
+                    href="/ja"
+                    hrefLang="ja"
+                    prefetch={false}
+                  >
+                    日本語
+                  </Link>
+                </RadixLink>
+              </li>
+            </ul>
+          </Flex>
+        </Reset>
 
         <Text as="p" size="2" align="center" mt="2" color="gray">
           Copyright
