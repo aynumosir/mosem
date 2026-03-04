@@ -4,7 +4,7 @@
     "description": "The home of the aynu.io project"
   },
   "/app/[locale]/page": {
-    "title": "Bringing Ainu Back to Life…",
+    "title": "To Speak Ainu Again...",
     "description": "aynu.io builds and publishes open software to keep the Ainu language alive in the modern world. The project is led by <link>Ryo\n  Igarashi</link> with the help of a small group of dedicated contributors.",
     "apps": "What We've Built",
     "apps_desc": "Here are the projects we've released so far. For access to anything not yet public, feel free to reach out.",
