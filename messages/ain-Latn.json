@@ -1,25 +1,25 @@
 {
   "/app/[locale]/layout": {
     "title": "aynu.io",
-    "description": "aynu.ioプロジェクトのトップページです"
+    "description": "aynu.io mosem ne ruwe ne"
   },
   "/app/[locale]/page": {
-    "title": "アイヌ語を<wbr></wbr>再び使うために…",
-    "description": "aynu.io では、アイヌ語を現代において使いやすくするためのソフトウェアを公開しています。プロジェクトは、<link>五十嵐 涼</link>と数名の有志によって維持されています。",
-    "apps": "公開中のプロジェクト",
-    "apps_desc": "現在までに以下のプロジェクトを公開しています。非公開のものへのアクセスを希望する方は、別途ご連絡ください。",
-    "elsewhere": "外部サイト",
-    "elsewhere_desc": "このサイトの他にも、以下のサイトで情報を発信しています。",
-    "app_entry_tunci": "実験的なアイヌ語の機械翻訳アプリ。方言や例文の表示も可能",
-    "app_entry_kampisos": "アイヌ語のモダンなオンラインコーパス。全文検索や高度なフィルターをサポート",
-    "app_entry_minecraft_ainu": "Minecraftをアイヌ語でプレイするためのリソースパック",
-    "app_entry_ainu_corpora": "170万語以上を収録したアイヌ語・日本語の対訳データセット"
+    "title": "Aynu itak suy a=eywanke easkay kuni...",
+    "description": "aynu.io ka ta, tane oka utar Aynu itak isaykano a=eywanke ne a=i=kar p ci=sapte wa oka=as ruwe ne. Neanpe anak, <link>Ryo Igarashi</link>, tun ren utar kar pe ne ruwe ne.",
+    "apps": "Ci=kar pe",
+    "apps_desc": "Tane pakno ci=kar wa ci=sapte p ene an hi. A=esinap nukar rusuy kur anak, un=nure wa un=kore yan.",
+    "elsewhere": "Mosma sayto",
+    "elsewhere_desc": "Tan sayto mosma anak, ene sayto or ta a=i=pirasa hi.",
+    "app_entry_tunci": "Aynu itak or wa Sisam itak or un itak tupte easkay aeywankep",
+    "app_entry_kampisos": "Ani Aynu itak a=hunara easkay aeywankep. Iesoye p ka easkay.",
+    "app_entry_minecraft_ainu": "Aynu itak ani Minecraft sinot=an easkay resource pack",
+    "app_entry_ainu_corpora": "Oro ta 1,700,000 akkari itak oka Sisam itak Aynu itak uomare p"
   },
   "/components/AppCard/AppCard": {
-    "visit": "開く",
-    "private": "非公開"
+    "visit": "Maka",
+    "private": "A=esinap"
   },
   "/components/ContentInfo/ContentInfo": {
-    "title": "運営者情報"
+    "title": "Tan sayto kar kur oruspe"
   }
 }
