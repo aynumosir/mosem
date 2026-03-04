@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+.radix-themes {
+  --default-font-family: var(--font-roboto), "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Meiryo", "ui-sans-serif", "system-ui";
+}
+
+html,
+body {
+  margin: 0;
+}
