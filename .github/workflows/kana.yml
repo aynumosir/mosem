@@ -1,0 +1,26 @@
+name: Sync ain-Kana from ain-Latn
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "messages/ain-Latn.json"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: aynumosir/ainu-kana-action@v1
+        with:
+          source: messages/ain-Latn.json
+          target: messages/ain-Kana.json
+          token: ${{ secrets.GITHUB_TOKEN }}
