@@ -44,6 +44,21 @@ export const ContentInfo: FC = async () => {
                 <RadixLink size="2" asChild>
                   <Link
                     rel="alternate"
+                    href="/ain-Kana"
+                    hrefLang="ain-Kana"
+                    prefetch={false}
+                  >
+                    アイヌ イタㇰ
+                  </Link>
+                </RadixLink>
+              </li>
+
+              <Separator orientation="vertical" decorative />
+
+              <li>
+                <RadixLink size="2" asChild>
+                  <Link
+                    rel="alternate"
                     href="/en"
                     hrefLang="en"
                     prefetch={false}

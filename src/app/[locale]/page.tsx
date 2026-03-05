@@ -15,10 +15,10 @@ import { getTranslations } from "next-intl/server";
 import { ExternalLinkIcon } from "@radix-ui/react-icons";
 import { AppCard } from "@/components/AppCard/AppCard";
 
-import tunci from "./tunci.png";
-import kampisos from "./kampisos.png";
-import minecraft_ainu from "./minecraft-ainu.png";
-import ainu_corpora from "./ainu-corpora.png";
+import tunci from "./images/tunci.png";
+import kampisos from "./images/kampisos.png";
+import minecraft_ainu from "./images/minecraft-ainu.png";
+import ainu_corpora from "./images/ainu-corpora.png";
 
 export default async function Home(props: PageProps<"/[locale]">) {
   const { params } = props;
@@ -32,7 +32,7 @@ export default async function Home(props: PageProps<"/[locale]">) {
         <Text
           as="p"
           size={{ initial: "7", md: "8" }}
-          weight={locale === "ja" ? "bold" : "regular"}
+          weight={locale === "ja" || locale === "ain-Kana" ? "bold" : "regular"}
           style={{ wordBreak: "keep-all", overflowWrap: "anywhere" }}
         >
           {t.rich("title", {
