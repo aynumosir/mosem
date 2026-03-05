@@ -5,15 +5,15 @@
   },
   "/app/[locale]/page": {
     "title": "Aynu itak suy a=eywanke easkay kuni...",
-    "description": "aynu.io ka ta, tane oka utar Aynu itak isaykano a=eywanke easkay kuni ci=kar p ci=sapte wa oka=as ruwe ne. Neanpe anak, <link>Ryo Igarashi</link>, tun ren utar kar wa epunkine p ne ruwe ne.",
+    "description": "aynu.io ka ta, tane oka utar Aynu itak isaykano eywanke easkay kuni ci=kar p ci=sapte wa oka=as ruwe ne. Neanpe anak, <link>Ryo Igarashi</link>, tun ren utar kar wa epunkine p ne ruwe ne.",
     "apps": "Ci=kar pe",
     "apps_desc": "Tane pakno ci=kar wa ci=sapte p ene an hi. A=esinap nukar rusuy kur anak, un=nure wa un=kore yan.",
     "elsewhere": "Mosma sayto",
-    "elsewhere_desc": "Tan sayto mosma anak, Oro ta a=i=pirasa sayto ene an hi.",
+    "elsewhere_desc": "Tan sayto mosma anak, kasike ta a=i=pirasa sayto ene an hi.",
     "app_entry_tunci": "Aynu itak or wa Sisam itak or un itak tupte easkay aeywankep",
     "app_entry_kampisos": "Ani Aynu itak a=hunara easkay aeywankep. Pirkano a=numke wa iesoye p ka easkay",
     "app_entry_minecraft_ainu": "Aynu itak ani Minecraft sinot=an easkay resource pack",
-    "app_entry_ainu_corpora": "Oro ta 1,700,000 akkari itak oka Sisam itak Aynu itak uomare p"
+    "app_entry_ainu_corpora": "Oro ta itak 1,700,000 akkari oka Sisam itak Aynu itak uomare p"
   },
   "/components/AppCard/AppCard": {
     "visit": "Kosinewe",
