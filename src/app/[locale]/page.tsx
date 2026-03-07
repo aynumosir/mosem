@@ -19,6 +19,7 @@ import tunci from "./images/tunci.png";
 import kampisos from "./images/kampisos.png";
 import minecraft_ainu from "./images/minecraft-ainu.png";
 import ainu_corpora from "./images/ainu-corpora.png";
+import ainu_utils from "./images/utils.png";
 
 export default async function Home(props: PageProps<"/[locale]">) {
   const { params } = props;
@@ -82,7 +83,7 @@ export default async function Home(props: PageProps<"/[locale]">) {
             title="ainu-corpora"
             src={ainu_corpora}
             description={t("app_entry_ainu_corpora")}
-            href="https://tunci.aynu.io"
+            href="https://github.com/aynumosir/ainu-corpora"
             access={false}
           />
 
@@ -91,6 +92,13 @@ export default async function Home(props: PageProps<"/[locale]">) {
             src={minecraft_ainu}
             description={t("app_entry_minecraft_ainu")}
             href="https://github.com/aynumosir/minecraft-ainu"
+          />
+
+          <AppCard
+            title="ainu-utils"
+            src={ainu_utils}
+            description={t("app_entry_ainu_utils")}
+            href="https://github.com/aynumosir/ainu-utils"
           />
         </Grid>
       </Section>
