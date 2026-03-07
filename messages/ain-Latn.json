@@ -4,7 +4,7 @@
     "description": "aynu.io mosem ne ruwe ne"
   },
   "/app/[locale]/page": {
-    "title": "Aynu itak suy a=eywanke kuni...",
+    "title": "Aynu itak suy a=eywanke kuni kusu...",
     "description": "aynu.io ka ta, tane oka utar Aynu itak isaykano eywanke kuni kusu ci=kar p ci=sapte wa oka=as ruwe ne. Neanpe anak, <link>Ryo Igarashi</link>, tun ren utar kar wa epunkine p ne ruwe ne.",
     "apps": "Ci=kar pe",
     "apps_desc": "Tane pakno ci=kar wa ci=sapte p ene an hi. A=esinap nukar rusuy kur anak, un=nure wa un=kore yan.",
@@ -13,7 +13,8 @@
     "app_entry_tunci": "Aynu itak or wa Sisam itak or un itak tupte kuni aeywankep",
     "app_entry_kampisos": "Aynu itak a=hunara kuni aeywankep. Pirkano a=numke kusu iesoye=an pe ka easkay",
     "app_entry_minecraft_ainu": "Aynu itak ani Minecraft sinot=an kuni resource pack",
-    "app_entry_ainu_corpora": "Oro ta itak 1,700,000 akkari oka Sisam itak Aynu itak uomare p"
+    "app_entry_ainu_corpora": "Oro ta itak 1,700,000 akkari oka Sisam itak Aynu itak uomare p",
+    "app_entry_ainu_utils": "アイヌ語に関する種々の処理を行うライブラリ。Rust、JavaScript、Pythonで利用可能"
   },
   "/components/AppCard/AppCard": {
     "visit": "Kosinewe",
