@@ -14,7 +14,7 @@
     "app_entry_kampisos": "A modern, searchable online corpus for the Ainu language with powerful filtering.",
     "app_entry_minecraft_ainu": "Play Minecraft in Ainu — a full resource pack for the Ainu language.",
     "app_entry_ainu_corpora": "A parallel Ainu–Japanese dataset of over 1.7 million words",
-    "app_entry_ainu_utils": "アイヌ語に関する種々の処理を行うライブラリ。Rust、JavaScript、Pythonで利用可能"
+    "app_entry_ainu_utils": "A toolkit for Ainu language processing, available in Rust, JavaScript, and Python"
   },
   "/components/AppCard/AppCard": {
     "visit": "Visit",
