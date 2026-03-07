@@ -13,7 +13,10 @@
     "app_entry_tunci": "An experimental Ainu machine translation app with dialect support and example sentences.",
     "app_entry_kampisos": "A modern, searchable online corpus for the Ainu language with powerful filtering.",
     "app_entry_minecraft_ainu": "Play Minecraft in Ainu — a full resource pack for the Ainu language.",
-    "app_entry_ainu_corpora": "A parallel Ainu–Japanese dataset of over 1.7 million words"
+    "app_entry_ainu_corpora": "A parallel Ainu–Japanese dataset of over 1.7 million words",
+    "app_entry_ainu_utils": "A toolkit for Ainu language processing, available in Rust, JavaScript, and Python",
+    "ethics": "倫理声明",
+    "ethics_desc": "私たちのプロジェクトの倫理的立場について、近日中に説明を公開する予定です。"
   },
   "/components/AppCard/AppCard": {
     "visit": "Visit",
