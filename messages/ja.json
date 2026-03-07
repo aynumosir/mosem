@@ -14,7 +14,9 @@
     "app_entry_kampisos": "アイヌ語のモダンなオンラインコーパス。全文検索や高度なフィルターをサポート",
     "app_entry_minecraft_ainu": "Minecraftをアイヌ語でプレイするためのリソースパック",
     "app_entry_ainu_corpora": "170万語以上を収録したアイヌ語・日本語の対訳データセット",
-    "app_entry_ainu_utils": "アイヌ語に関する種々の処理を行うライブラリ。Rust、JavaScript、Pythonで利用可能"
+    "app_entry_ainu_utils": "アイヌ語に関する種々の処理を行うライブラリ。Rust、JavaScript、Pythonで利用可能",
+    "ethics": "倫理声明",
+    "ethics_desc": "私たちのプロジェクトの倫理的立場について、近日中に説明を公開する予定です。"
   },
   "/components/AppCard/AppCard": {
     "visit": "開く",

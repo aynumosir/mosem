@@ -9,10 +9,14 @@ import {
   Flex,
   Separator,
   Grid,
+  Callout,
 } from "@radix-ui/themes";
 import { getTranslations } from "next-intl/server";
 
-import { ExternalLinkIcon } from "@radix-ui/react-icons";
+import {
+  ExclamationTriangleIcon,
+  ExternalLinkIcon,
+} from "@radix-ui/react-icons";
 import { AppCard } from "@/components/AppCard/AppCard";
 
 import tunci from "./images/tunci.png";
@@ -53,6 +57,19 @@ export default async function Home(props: PageProps<"/[locale]">) {
         </Text>
       </Section>
 
+      <Separator decorative />
+      <Section size="2">
+        <Heading as="h2" size={{ initial: "5", md: "7" }} mb="1">
+          {t("ethics")}
+        </Heading>
+
+        <Callout.Root color="gray" mt="3">
+          <Callout.Icon>
+            <ExclamationTriangleIcon />
+          </Callout.Icon>
+          <Callout.Text>{t("ethics_desc")}</Callout.Text>
+        </Callout.Root>
+      </Section>
       <Separator decorative />
 
       <Section size="2">
